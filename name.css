@@ -64,7 +64,54 @@ body {
   align-items: center;
   justify-content: center;
 }
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+}
 
+.card {
+    border-radius: 20px ;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: rgba(red, green, blue, alpha);
+    width: calc(25% - 30px);
+    margin-left: 30px;
+}
+.card-img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+.card-content {
+    padding: 25px;
+}
+.card-title {
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.stars {
+    position: relative;
+    white-space: nowrap;
+}
+.stars svg {
+    width: 60px;
+}
+
+.overlay {
+    background: #fff;
+    height: 100%;
+    overflow: hidden;
+    mix-blend-mode: color;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+svg {
+    fill: gold;
+}
 
 
 
